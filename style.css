@@ -531,6 +531,20 @@ footer h2{
 
 /* responsive start */
 
+
+@media screen and (min-width: 991px){
+    .elem-container .desktop-hide {
+        display: none;
+    }
+}   
+
+@media screen and (max-width: 991px){
+    .elem-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
 @media screen and (max-width: 768px) {
 
     /* header start */
